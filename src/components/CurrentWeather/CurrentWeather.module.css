@@ -1,0 +1,46 @@
+.card {
+  background: #ffffff;
+  box-shadow: 5px 5px 24px #4d575f;
+  border-radius: 25px;
+  max-width: 400px;
+  padding: 20px;
+  margin: 20px auto;
+}
+
+.header,
+.body,
+.item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+}
+
+.mainInfo {
+  font-size: 25px;
+  line-height: 1;
+}
+.mainInfo span {
+  font-weight: 400;
+  font-size: 16px;
+}
+.deg {
+  font-size: 60px;
+}
+.details {
+  width: 100%;
+}
+.title {
+  font-weight: 600;
+  font-size: 14px;
+  letter-spacing: 0.05em;
+  text-decoration-line: underline;
+}
+.item {
+  font-size: 12px;
+  letter-spacing: 0.05em;
+}
+
+.item span {
+  font-weight: 600;
+}
