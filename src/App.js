@@ -2,9 +2,13 @@ import "./App.css";
 import Search from "./components/search/Search";
 
 function App() {
+  const onSearchChange = (searchData) => {
+    console.log(searchData);
+  };
+
   return (
     <div className="container">
-      <Search />
+      <Search onSearchChange={onSearchChange} />
     </div>
   );
 }
