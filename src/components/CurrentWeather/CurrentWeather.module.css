@@ -8,8 +8,7 @@
 }
 
 .header,
-.body,
-.item {
+.body {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -36,11 +35,9 @@
   letter-spacing: 0.05em;
   text-decoration-line: underline;
 }
-.item {
-  font-size: 12px;
-  letter-spacing: 0.05em;
-}
 
-.item span {
-  font-weight: 600;
+@media (max-width: 600px) {
+  .body {
+    gap: 20px;
+  }
 }

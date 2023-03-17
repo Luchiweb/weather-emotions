@@ -13,6 +13,7 @@ import {
   filterForecast,
   WEEK_DAYS,
 } from "../../helpers/forecast";
+import Details from "../Details/Details";
 
 const Forecast = ({ data }) => {
   const today = new Date().getDay();
@@ -48,23 +49,8 @@ const Forecast = ({ data }) => {
               </AccordionItemButton>
             </AccordionItemHeading>
             <AccordionItemPanel>
-              <div className="inform">
-                <div className="item">
-                  <div>Feels like</div>
-                  <span>{Math.round(item.main.feels_like)}°C</span>
-                </div>
-                <div className="item">
-                  <div>Wind</div>
-                  <span>{Math.round(item.wind.speed)} m/s</span>
-                </div>
-                <div className="item">
-                  <div>Humidity</div>
-                  <span>{item.main.humidity}%</span>
-                </div>
-                <div className="item">
-                  <div>Pressure</div>
-                  <span>{item.main.pressure} hPa</span>
-                </div>
+              <div className="details">
+                <Details data={item} />
               </div>
             </AccordionItemPanel>
           </AccordionItem>

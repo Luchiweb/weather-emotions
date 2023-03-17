@@ -1,0 +1,12 @@
+.item {
+  font-size: 12px;
+  letter-spacing: 0.05em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+}
+
+.item span {
+  font-weight: 600;
+}
