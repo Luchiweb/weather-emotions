@@ -13,7 +13,7 @@ const CurrentWeather = ({ data }) => {
           <h3>{data.name}</h3>
           <span>{data.weather[0].description}</span>
         </div>
-        <img src={`img/icons/${data.weather[0].icon}.png`} alt="weather-icon" />
+        <img src={`img/icons/${data.weather[0].icon}.svg`} alt="weather-icon" />
       </div>
       <div className={styles.body}>
         <h2 className={styles.deg}>{Math.round(data.main.temp)}°C</h2>
