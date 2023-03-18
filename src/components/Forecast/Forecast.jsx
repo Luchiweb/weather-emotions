@@ -40,7 +40,7 @@ const Forecast = ({ data }) => {
                   <div className="info">
                     {`${averangeTemperatures[id]}°C`}
                     <img
-                      src={`img/icons/${item.weather[0].icon}.svg`}
+                      src={`img/icons/emoji/${item.weather[0].icon}.svg`}
                       alt="weather"
                       className="icon"
                     />
@@ -50,7 +50,7 @@ const Forecast = ({ data }) => {
             </AccordionItemHeading>
             <AccordionItemPanel>
               <div className="details">
-                <Details data={item} />
+                <Details data={item} place={true} />
               </div>
             </AccordionItemPanel>
           </AccordionItem>

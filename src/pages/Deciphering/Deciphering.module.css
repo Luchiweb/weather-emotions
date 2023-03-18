@@ -1,0 +1,55 @@
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  row-gap: 50px;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  background: #ffffff;
+  box-shadow: 4px 4px 10px rgb(0 0 0 / 48%);
+  border-radius: 25px;
+  padding: 20px;
+  max-width: 480px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 25px;
+  line-height: 40px;
+  font-family: "Kalam", cursive;
+  align-self: flex-end;
+}
+
+.title img {
+  max-width: 70px;
+}
+
+@media (max-width: 1024px) {
+  .cards {
+    justify-content: center;
+  }
+  .card {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .card {
+    flex-direction: column;
+  }
+  .title {
+    align-self: center;
+  }
+}

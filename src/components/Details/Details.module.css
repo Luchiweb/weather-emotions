@@ -10,3 +10,14 @@
 .item span {
   font-weight: 600;
 }
+
+.forecastItem {
+  flex-direction: column;
+  gap: 10px;
+  font-size: 14px;
+}
+
+.info {
+  display: flex;
+  justify-content: space-around;
+}
