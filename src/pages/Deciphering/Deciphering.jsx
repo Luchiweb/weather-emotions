@@ -5,11 +5,15 @@ import DecipheringCard from "./DecipheringCard";
 
 const Deciphering = () => {
   return (
-    <div className={styles.cards}>
-      {decipheringCards.map((item) => (
-        <DecipheringCard item={item} />
-      ))}
-    </div>
+    <>
+      <h1 className="title">Weather description in the emoji</h1>
+      <div className={styles.cards}>
+        {decipheringCards.map((item) => (
+          <DecipheringCard key={item.name} item={item} />
+        ))}
+      </div>
+      )
+    </>
   );
 };
 

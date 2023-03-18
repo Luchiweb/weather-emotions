@@ -2,7 +2,8 @@
 
 .container {
   max-width: 1080px;
-  margin: 20px auto;
+  width: 95%;
+  margin: 110px auto 20px;
 }
 /* Указываем box sizing */
 *,
@@ -50,4 +51,16 @@ button,
 textarea,
 select {
   font: inherit;
+}
+
+.title {
+  color: #fff;
+  text-align: center;
+  margin: 120px 0 30px;
+}
+
+@media (max-width: 765px) {
+  .container {
+    margin: 150px auto 20px;
+  }
 }

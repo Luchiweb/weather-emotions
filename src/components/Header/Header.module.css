@@ -1,18 +1,26 @@
 .header {
   padding: 20px;
+  background-color: #182b2e;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 5;
 }
 
 .nav {
   display: flex;
+  align-items: center;
   justify-content: space-between;
 }
 
 .menu {
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 20px;
   list-style: none;
-  font-weight: 500;
+  font-size: 20px;
+  font-weight: 600;
 }
 
 .menu {
@@ -26,4 +34,13 @@ a {
 
 .activeLink {
   color: #fcbc34;
+}
+
+@media (max-width: 765px) {
+  .menu {
+    gap: 10px;
+    font-size: 15px;
+    font-weight: 500;
+    flex-direction: column;
+  }
 }

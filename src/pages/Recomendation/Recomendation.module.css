@@ -1,0 +1,79 @@
+.wrapper {
+  color: #fff;
+}
+
+.number {
+  position: relative;
+  height: fit-content;
+}
+
+.number img {
+  min-height: 75px;
+  min-width: 75px;
+}
+
+.number span {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.recomendation {
+  background-color: #fff;
+  color: #2f5c6d;
+  border-radius: 10px;
+  padding: 15px;
+  width: 100%;
+}
+
+.recomendationWrapper {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  margin-bottom: 40px;
+}
+
+.arrow {
+  transform: rotate(4deg);
+  width: 25%;
+}
+
+.arrowRight {
+  transform: rotateY(180deg) rotate(4deg);
+  width: 25%;
+}
+
+.question {
+  margin-bottom: 35px;
+  font-weight: 500;
+}
+
+.question p {
+  font-size: 18px;
+}
+
+@media (max-width: 768px) {
+  .arrow,
+  .arrowRight {
+    display: none;
+  }
+  .number img {
+    transform: scale(0.8);
+  }
+  .recomendationWrapper {
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  .recomendationWrapperRevert {
+    flex-direction: column-reverse;
+  }
+  .recomendation {
+    width: 90%;
+  }
+  .question p {
+    font-size: 14px;
+  }
+}

@@ -37,6 +37,9 @@ const ForecastPage = () => {
   return (
     <>
       <Search onSearchChange={onSearchChange} />
+      {currentWeather === null && (
+        <h1 className="title">Select your city to check the weather</h1>
+      )}
       {currentWeather && <CurrentWeather data={currentWeather} />}
       {forecast && <Forecast data={forecast} />}
     </>
