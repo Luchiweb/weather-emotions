@@ -46,7 +46,7 @@ const Recomendation = () => {
             alt="check" // !Change to arrow
           />
           <div className={styles.number}>
-            <img src={"/public/img/ellipse.svg"} alt="ellipse" />
+            <img src={"./img/ellipse.svg"} alt="ellipse" />
             <span>2</span>
           </div>
           <div className={styles.recomendation}>
