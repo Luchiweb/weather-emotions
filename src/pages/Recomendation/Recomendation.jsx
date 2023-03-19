@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./Recomendation.module.css";
-// import circle from "../.public/img/ellipse.svg";
-// import arrow from "../.../../.public/img/arrow.svg";
+import circle from "../../img/ellipse.svg";
+import arrow from "../../img/arrow.svg";
 
 const Recomendation = () => {
   return (
@@ -26,10 +26,7 @@ const Recomendation = () => {
       <div className={styles.recomendations}>
         <div className={styles.recomendationWrapper}>
           <div className={styles.number}>
-            <img
-              src={"../../img/ellipse.svg"}
-              alt="two check" // ! Change to ellipse
-            />
+            <img src={circle} alt="two check" />
             <span>1</span>
           </div>
           <div className={styles.recomendation}>
@@ -40,13 +37,9 @@ const Recomendation = () => {
           </div>
         </div>
         <div className={styles.recomendationWrapper}>
-          <img
-            className={styles.arrow}
-            src={"./img/arrow.svg"}
-            alt="check" // !Change to arrow
-          />
+          <img className={styles.arrow} src={arrow} alt="check" />
           <div className={styles.number}>
-            <img src={"./img/ellipse.svg"} alt="ellipse" />
+            <img src={circle} alt="ellipse" />
             <span>2</span>
           </div>
           <div className={styles.recomendation}>
@@ -65,24 +58,15 @@ const Recomendation = () => {
             or dehumidifiers to adjust the humidity level.
           </div>
           <div className={styles.number}>
-            <img src={"/src/img/ellipse.svg"} alt="three check" />
-            // ! Change to ellipse
+            <img src={circle} alt="three check" />
             <span>3</span>
           </div>
-          <img
-            className={styles.arrowRight}
-            src={"/public/img/arrow.svg"}
-            alt="arrow"
-          />
+          <img className={styles.arrowRight} src={arrow} alt="arrow" />
         </div>
         <div className={styles.recomendationWrapper}>
-          <img
-            className={styles.arrow}
-            src={"/public/img/arrow.svg"}
-            alt="arrow"
-          />
+          <img className={styles.arrow} src={arrow} alt="arrow" />
           <div className={styles.number}>
-            <img src={"/public/img/ellipse.svg"} alt="ellipse" />
+            <img src={circle} alt="ellipse" />
             <span>4</span>
           </div>
           <div className={styles.recomendation}>
@@ -101,23 +85,15 @@ const Recomendation = () => {
             about medication options that may help manage your symptoms.
           </div>
           <div className={styles.number}>
-            <img src={"/public/img/ellipse.svg"} alt="ellipse" />
+            <img src={circle} alt="ellipse" />
             <span>5</span>
           </div>
-          <img
-            className={styles.arrowRight}
-            src={"/public/img/arrow.svg"}
-            alt="arrow"
-          />
+          <img className={styles.arrowRight} src={arrow} alt="arrow" />
         </div>
         <div className={styles.recomendationWrapper}>
-          <img
-            className={styles.arrow}
-            src="/public/img/arrow.svg"
-            alt="arrow"
-          />
+          <img className={styles.arrow} src={arrow} alt="arrow" />
           <div className={styles.number}>
-            <img src={"/public/img/ellipse.svg"} alt="ellipse" />
+            <img src={circle} alt="ellipse" />
             <span>6</span>
           </div>
           <div className={styles.recomendation}>
@@ -134,14 +110,10 @@ const Recomendation = () => {
             avoid spending time outside during high pollen count days.
           </div>
           <div className={styles.number}>
-            <img src={"/public/img/ellipse.svg"} alt="ellipse" />
+            <img src={circle} alt="ellipse" />
             <span>7</span>
           </div>
-          <img
-            className={styles.arrowRight}
-            src={"/public/img/arrow.svg"}
-            alt="arrow"
-          />
+          <img className={styles.arrowRight} src={arrow} alt="arrow" />
         </div>
       </div>
     </div>

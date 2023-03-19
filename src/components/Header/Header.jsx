@@ -1,13 +1,14 @@
 import React from "react";
 import { Link, NavLink } from "react-router-dom";
 import styles from "./Header.module.css";
+import logo from "../../img/logo.svg";
 
 const Header = () => {
   return (
     <div className={styles.header}>
       <nav className={styles.nav}>
         <Link to="/forecast">
-          <img src="img/logo.svg" alt="logo" />
+          <img src={logo} alt="logo" />
         </Link>
         <ul className={styles.menu}>
           <li className={styles.menuItem}>

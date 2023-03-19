@@ -1,4 +1,5 @@
-import { Route, Routes } from "react-router-dom";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+
 import "./App.css";
 
 import Header from "./components/Header/Header";
@@ -8,7 +9,7 @@ import Recomendation from "./pages/Recomendation/Recomendation";
 
 function App() {
   return (
-    <>
+    <BrowserRouter>
       <Header />
       <div className="container">
         <Routes>
@@ -17,7 +18,7 @@ function App() {
           <Route path="/recomendation" element={<Recomendation />} />
         </Routes>
       </div>
-    </>
+    </BrowserRouter>
   );
 }
 
