@@ -27,7 +27,7 @@ const Recomendation = () => {
         <div className={styles.recomendationWrapper}>
           <div className={styles.number}>
             <img
-              src={"/weather-emotions/public/img/ellipse.svg"}
+              src={"../../img/ellipse.svg"}
               alt="two check" // ! Change to ellipse
             />
             <span>1</span>
@@ -42,7 +42,7 @@ const Recomendation = () => {
         <div className={styles.recomendationWrapper}>
           <img
             className={styles.arrow}
-            src={"weather-emotions/public/img/arrow.svg"}
+            src={"./img/arrow.svg"}
             alt="check" // !Change to arrow
           />
           <div className={styles.number}>
@@ -65,10 +65,7 @@ const Recomendation = () => {
             or dehumidifiers to adjust the humidity level.
           </div>
           <div className={styles.number}>
-            <img
-              src={"./weather-emotions/public/img/ellipse.svg"}
-              alt="three check"
-            />
+            <img src={"/src/img/ellipse.svg"} alt="three check" />
             // ! Change to ellipse
             <span>3</span>
           </div>
