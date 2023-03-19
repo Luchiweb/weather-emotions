@@ -7,7 +7,7 @@ const Header = () => {
     <div className={styles.header}>
       <nav className={styles.nav}>
         <Link to="/forecast">
-          <img src="img/icons/logo.svg" alt="logo" />
+          <img src="img/logo.svg" alt="logo" />
         </Link>
         <ul className={styles.menu}>
           <li className={styles.menuItem}>
