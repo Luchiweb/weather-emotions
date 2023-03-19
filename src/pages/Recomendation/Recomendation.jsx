@@ -1,5 +1,7 @@
 import React from "react";
 import styles from "./Recomendation.module.css";
+// import circle from "../../img/ellipse.svg";
+// import arrow from "../../img/arrow.svg";
 
 const Recomendation = () => {
   return (
@@ -24,7 +26,7 @@ const Recomendation = () => {
       <div className={styles.recomendations}>
         <div className={styles.recomendationWrapper}>
           <div className={styles.number}>
-            <img src="./public/img/ellipse.svg" alt="ellipse" />
+            <img src={"../../../public/img/ellipse.svg"} alt="ellipse" />
             <span>1</span>
           </div>
           <div className={styles.recomendation}>
@@ -37,11 +39,11 @@ const Recomendation = () => {
         <div className={styles.recomendationWrapper}>
           <img
             className={styles.arrow}
-            src="./public/img/arrow.svg"
+            src={"../../../public/img/arrow.svg"}
             alt="arrow"
           />
           <div className={styles.number}>
-            <img src="./public/img/ellipse.svg" alt="ellipse" />
+            <img src={"../../../public/img/ellipse.svg"} alt="ellipse" />
             <span>2</span>
           </div>
           <div className={styles.recomendation}>
@@ -60,23 +62,23 @@ const Recomendation = () => {
             or dehumidifiers to adjust the humidity level.
           </div>
           <div className={styles.number}>
-            <img src="./public/img/ellipse.svg" alt="ellipse" />
+            <img src={"../../../public/img/ellipse.svg"} alt="ellipse" />
             <span>3</span>
           </div>
           <img
             className={styles.arrowRight}
-            src="./public/img/arrow.svg"
+            src={"../../../public/img/arrow.svg"}
             alt="arrow"
           />
         </div>
         <div className={styles.recomendationWrapper}>
           <img
             className={styles.arrow}
-            src="./public/img/arrow.svg"
+            src={"../../../public/img/arrow.svg"}
             alt="arrow"
           />
           <div className={styles.number}>
-            <img src="./public/img/ellipse.svg" alt="ellipse" />
+            <img src={"../../../public/img/ellipse.svg"} alt="ellipse" />
             <span>4</span>
           </div>
           <div className={styles.recomendation}>
@@ -95,19 +97,23 @@ const Recomendation = () => {
             about medication options that may help manage your symptoms.
           </div>
           <div className={styles.number}>
-            <img src="./public/img/ellipse.svg" alt="ellipse" />
+            <img src={"../../../public/img/ellipse.svg"} alt="ellipse" />
             <span>5</span>
           </div>
           <img
             className={styles.arrowRight}
-            src="./public/img/arrow.svg"
+            src={"../../../public/img/arrow.svg"}
             alt="arrow"
           />
         </div>
         <div className={styles.recomendationWrapper}>
-          <img className={styles.arrow} src="img/arrow.svg" alt="arrow" />
+          <img
+            className={styles.arrow}
+            src="../../../public/img/arrow.svg"
+            alt="arrow"
+          />
           <div className={styles.number}>
-            <img src="./public/img/ellipse.svg" alt="ellipse" />
+            <img src={"../../../public/img/ellipse.svg"} alt="ellipse" />
             <span>6</span>
           </div>
           <div className={styles.recomendation}>
@@ -124,12 +130,12 @@ const Recomendation = () => {
             avoid spending time outside during high pollen count days.
           </div>
           <div className={styles.number}>
-            <img src="./public/img/ellipse.svg" alt="ellipse" />
+            <img src={"../../../public/img/ellipse.svg"} alt="ellipse" />
             <span>7</span>
           </div>
           <img
             className={styles.arrowRight}
-            src="./public/img/arrow.svg"
+            src={"../../../public/img/arrow.svg"}
             alt="arrow"
           />
         </div>
